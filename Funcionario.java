@@ -11,7 +11,8 @@ public Funcionario extends Pessoa {
 
     @Override
       public String mostrarDados() {
-      return //completar aqui
+      return "Funcionario{" + "nome='" + nome + '\'' + ", idade=" + idade + ", cpf='" + cpf + '\'' + 
+        ", salario=" + salario + ", dataAdmissao='" + dataAdmissao + '\'' + cargo='" + cargo + '\'' + '}'
       }
 
     public double calcularSalarioAnual(){
