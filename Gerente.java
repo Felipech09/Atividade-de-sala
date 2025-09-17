@@ -18,10 +18,6 @@ public class Gerente extends Funcionario {
     }
 
     public double calcularSalarioComBonus() {
-        // Here, we can't directly access the private 'salario' field from the superclass.
-        // A better approach is to return just the bonus, as the salary is part of the Funcionario class.
-        // For this specific case, it seems the intention was to calculate the total.
-        // We'll fix the Main class to handle this correctly.
         return super.salario + bonus;
     }
 
